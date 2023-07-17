@@ -2,9 +2,9 @@
 import './index.css'
 
 const Message = props => {
-  const {isloggedIn} = props
+ const {isLoggedIn} = props
 
-  const message = isloggedIn ? 'Welcome User' : 'Please Login'
+const message = isLoggedIn ? 'Welcome User' : 'Please Login'
 
   return <h1 className="message">{message}</h1>
 }
